@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+#homepage {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "local-menu main"
+    "footer footer";
+  grid-template-rows: auto;
+  grid-template-columns: 0.5fr 2fr;
+}
+
+header {
+  grid-area: header;
+  background-color: plum;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.menu li:hover a:hover{
+  background-color: rebeccapurple;
+  color: white;
+  padding: 1rem
+}
+
+.local-menu {
+  grid-area: local-menu;
+  background-color: pink;
+}
+
+.local-menu li {
+  padding: 1rem;
+  list-style-type: none;
+}
+
+.local-menu li:hover {
+  background-color: plum;
+}
+
+main {
+  grid-area: main;
+  padding: 1rem;
+  background-color: pink;
+  border-left: 1px solid black;
+}
+
+footer {
+  grid-area: footer;
+  padding: 1rem;
+  background-color: plum;
+}
