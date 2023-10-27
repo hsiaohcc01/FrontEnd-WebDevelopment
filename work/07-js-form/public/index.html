@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script defer src="js/index.js"></script>
+</head>
+
+<body>
+
+    <main class="main">
+        <div id="root">
+            <header class="header">
+                <h1 class="header-title">Registration Form</h1>
+            </header>
+
+            <form class="register" action="/register" method="POST">
+
+                <div class="register_name register-name">
+                    <label for="name"><span>Name</span></label>
+                    <span class="register-name_error"></span>
+                    <input name="name" class="register-name_input" id="name" type="name"
+                        placeholder="ex: Hsiao-Ching Chen">
+                </div>
+
+                <div class="register_email register-email">
+                    <label for="email"><span>Email</span></label>
+                    <span class="register-email_error"></span>
+                    <input name="email" class="register-email_input" id="email" type="email"
+                        placeholder="ex: neu@gmail.com">
+                </div>
+
+                <div class="register_confirm register-confirm">
+                    <label for="confirm"><span>Confirm mail</span></label>
+                    <span class="register-confirm_error">
+                        「 This field must match the email. 」
+                    </span>
+                    <input name="confirm" class="register-confirm_input" id="confirm" type="email"
+                        placeholder="ex: neu@gmail.com">
+                </div>
+
+                <div class="menu">
+                    <label for="name"><span>Tier Lvl</span></label>
+                    <select name="tier" class="register-input" required>
+                        <option value="">Please select</option>
+                        <option value="1">Silver Tier</option>
+                        <option value="2">Gold Tier</option>
+                        <option value="3">Platinum Tier</option>
+                    </select>
+                </div>
+
+                <div class="content">
+                    <input type="checkbox" checked="checked" name="wants-spam">
+                    <label for="wants-spam">Send you annoying emails?</label>
+                </div>
+
+                <button type="submit" class="registr-submit">Register</button>
+
+            </form>
+
+            <footer>
+                <div><a href="privacy.html">privacy policy</a></div>
+            </footer>
+
+        </div>
+    </main>
+
+</body>
+
+</html>
