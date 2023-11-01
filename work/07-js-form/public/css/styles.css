@@ -1,0 +1,136 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #e99872;
+}
+
+span {
+    font-weight: bold;
+    grid-column: span 12;
+}
+
+.header {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: #b07381;
+    height: 100px;
+}
+
+.header-title {
+    grid-column: span 12;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+.main {
+    font-size: 1rem;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.register {
+    border: 3px solid gray;
+    border-radius: 20px;
+    margin: 100px;
+    background-color: pink;
+    display: flex;
+    flex-flow: column nowrap;
+    flex-direction: column;
+    align-items: center;
+    line-height: 5;
+    height: 550px;
+}
+
+.register-confirm_error {
+    display: none;
+    color: red;
+}
+
+.register-name_error,
+.register-email_error {
+    color: red;
+}
+
+.register-name_error:empty,
+.register-email_error:empty {
+    display: none;
+}
+
+.register-confirm--invalid .register-confirm_error {
+    display: initial;
+}
+
+.register-submit {
+    justify-content: space-around;
+}
+
+.register_name label:before {
+    content: "* ";
+    color: red;
+}
+
+.register_email label:before {
+    content: "* ";
+    color: red;
+}
+
+.register_confirm label:before {
+    content: "* ";
+    color: red;
+}
+
+.menu label:before {
+    content: "* ";
+    color: red;
+}
+
+.register-name_input,
+.register-email_input,
+.register-confirm_input,
+.register-input {
+    border: 2px solid darkblue;
+    width: 200px;
+}
+
+form button {
+    width: 10rem;
+    height: 2rem;
+    border: 0;
+    color: white;
+    background-color: #b07381;
+}
+
+footer {
+    padding: 1rem;
+    border-top: 0.5px dotted black;
+    background-color: #b07381;
+    margin: 0;
+    height: 50px;
+
+}
+
+footer div {
+    text-align: center;
+}
+
+@media screen and (max-width:40rem) {
+
+    .register_name,
+    .register_email,
+    .register_confirm {
+        display: flex;
+        flex-direction: column;
+    }
+}
