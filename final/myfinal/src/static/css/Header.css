@@ -1,0 +1,60 @@
+.header {
+    display: grid;
+    grid-template-areas:
+        "header-logo header-title header-user"
+        "header-nav header-nav header-nav"
+    ;
+    grid-template-columns: auto 1fr auto;
+    background-color: rgb(209, 167, 167);
+}
+
+.header-logo {
+    grid-area: header-logo;
+    aspect-ratio: 1/1;
+    border-radius: 5rem;
+    width: 120px;
+    vertical-align: bottom;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.header-title {
+    grid-area: header-title;
+    color: rgb(76, 89, 115);
+    text-align: center;
+    align-self: center;
+    animation: title 1s linear;
+}
+
+.header-nav {
+    grid-area: header-nav;
+    background-color: #67b5d9;
+}
+
+.header-user {
+    grid-area: header-user;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin: 1rem;
+}
+
+.header-login {
+    margin-top: 3rem;
+    margin-right: 3rem;
+}
+
+.header-login-btn {
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(90, 181, 158);
+    color: rgb(51, 51, 51);
+    border: 1px solid transparent;
+    border-radius: 5px;
+}

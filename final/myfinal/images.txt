@@ -1,0 +1,7 @@
+/* Adapted from https://unsplash.com License: https://unsplash.com/license */
+
+1. logo.jpg: https://unsplash.com/photos/a-whale-jumping-out-of-the-water-TDdMp1PIxrc
+2. blue whale.jpg: https://unsplash.com/photos/photography-of-whale-t20pc32VbrU
+3. fin whale.jpg: https://unsplash.com/photos/humpback-whale-jumping-on-sea-Mi6cQQNlUbI
+4. killer whale.jpg: https://unsplash.com/photos/black-and-white-whale-in-water-dyu466BfWj8
+5. orca.jpg: https://unsplash.com/photos/a-whale-jumping-out-of-the-water-TDdMp1PIxrc

@@ -1,0 +1,10 @@
+.main {
+    width: 100%;
+    background-color: rgb(220, 224, 223);
+}
+
+.main.dark {
+    background-color: #121212;
+    color: rgba(220, 224, 223, 0.8) ;
+    transition: all 1s;
+  }

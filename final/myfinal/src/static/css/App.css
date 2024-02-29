@@ -1,0 +1,19 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.skip-link {
+  position: absolute;
+  top: 1rem;
+  left: -100vw;
+  background: #fff;
+  border: 1px solid #aaa;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+}
+
+.skip-link:focus {
+  left: 1rem;
+}

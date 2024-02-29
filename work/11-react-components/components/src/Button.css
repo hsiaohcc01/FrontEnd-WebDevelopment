@@ -1,0 +1,39 @@
+/* Button Styles */
+.button-link {
+    border: none;
+    color: #069;
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.button-submit {
+    border: 2px solid darkblue;
+    border-radius: 3rem;
+    background-color: cornflowerblue;
+    cursor: pointer;
+    color: #f3d1cb;
+    height: 2rem;
+}
+
+.button-submit:hover {
+    background-color: #7a92be;
+}
+
+/* Dialog Styles */
+.link-dialog {
+    background-color: yellow;
+}
+
+.submit-dialog {
+    background-color: burlywood;
+}
+
+/* Form Styles */
+form {
+    display: inline-block;
+    height: 8rem;
+    width: 30rem;
+    align-self: center;
+    border: 2px solid black;
+}

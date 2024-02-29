@@ -1,0 +1,22 @@
+.footer {
+    line-height: 3;
+    position: central;
+    padding: 15px 10px;
+    color: #eee;
+    font-size: 14px;
+    text-align: center;
+    background-color: rgb(140, 141, 185);
+  }
+
+.footer a, .footer a:visited {
+    display: block;
+    color: #3c12a4;
+}
+
+@media (min-width: 44rem) {
+    .footer-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}

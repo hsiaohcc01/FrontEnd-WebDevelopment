@@ -1,0 +1,15 @@
+.theme {
+    z-index: 4;
+    position: fixed;
+    right: 10px;
+    bottom: 100px;
+    transition: all 0.5s;
+  }
+
+.theme-icon {
+  font-size: 32px;
+  cursor: pointer;
+}
+.theme-icon:hover {
+  background-color: #dd0000;
+}

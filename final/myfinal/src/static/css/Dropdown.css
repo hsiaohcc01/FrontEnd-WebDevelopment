@@ -1,0 +1,31 @@
+/* Dropdown.css */
+
+.combined-dropdowns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .multy-select-dropdown-hobby,
+  .multy-select-dropdown-specify-type,
+  .subscribe-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    width: 100%;
+  }
+  
+  select {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  span {
+    font-weight: bold;
+  }
+  
+  /* Additional styling can be added as per your design requirements */
+  

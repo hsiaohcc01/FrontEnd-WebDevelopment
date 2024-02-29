@@ -1,0 +1,111 @@
+.modal::backdrop {
+    background-color: black;
+    opacity: 0.7;
+}
+
+.modal {
+    width: 40%;
+    background-color: #eee;
+    border-radius: 1rem;
+    border: 1px solid black;
+}
+
+.modal-success {
+    width: 30%;
+    background-color: rgba(234, 188, 24, 0.95);
+    border-radius: 1rem;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    font-style: Sans-serif;  
+}
+
+.modal-success button {
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: #c6494b;
+    color: white;
+}
+
+.modal-success button:hover {
+    background-color: #555;
+}
+
+.modal-success::backdrop {
+    background-color: rgba(0, 0, 0, 0.96);
+    opacity: 0.7;
+}
+
+form {
+    margin: 1rem 0.5em 0 1rem;
+}
+
+form>div {
+    margin: 1rem 0.5em 0 1rem;
+}
+
+.modal-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.modal-text-italic {
+    font-style: Sans-serif;
+}
+
+.register-email-error,
+.register-confirm-error,
+.register-username-error {
+    color: red;
+    font-weight: bold;
+    font-style: Sans-serif;
+}
+
+input {
+    height: 1.5rem;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.register-email-input.error,
+.register-confirm-input.error,
+.register-username-input.error {
+    border: 2px solid red;
+}
+
+.login-button,
+.register-button {
+    display: flex;
+    justify-content: center;
+}
+
+.open-login-form,
+.register-submit {
+    display: inline-block;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: 1px solid #3a64ac;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: #3a64ac;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.close-confirm-login,
+.register-close {
+    display: inline-block;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: 1px solid #a4228e;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: #a4228e;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
